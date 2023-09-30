@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <h1 class="text-center">View Contact Details</h1>
+        <div class="col-6">           
+            <!---view details-->
+            <ul class="list-group mt-5">
+                <li class="list-group-item mt-2">Full Name : {{contact.name}}</li>
+                <li class="list-group-item mt-2">Email : {{contact.email}}</li>
+                <li class="list-group-item mt-2">Mobile : {{contact.phone}}</li>
+                <li class="list-group-item mt-2">Company : {{contact.company}}</li>
+                <li class="list-group-item mt-2">Title : {{contact.title}}</li>
+                <li class="list-group-item mt-2">Group : {{groupName}}</li>
+              </ul>
+              <!----ithu main pagileku povan vendi olla button angotathekku redirection-->
+           <div><button routerLink="/"  class="btn btn-outline-dark my-5 ms-3">Back To Home</button></div>
+        </div>
+
+        <div class="col-6">
+            <!---image-->
+            <img width="100%" height="500px" [src]="contact.photourl" alt="">
+
+        </div>
+
+    </div>
+</div>

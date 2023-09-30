@@ -1,0 +1,58 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Ann Agustine",
+      "email": "annluk@gmail.com",
+      "phone": "9854578995",
+      "photourl": "https://th.bing.com/th/id/R.8cdd481c8e7ee7ff2e2db12d38682ef6?rik=kzwHTTTyQfpEbw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_218087.png&ehk=A4w%2fBoJ5kRUR3yKmm%2fCnjmiSP444WLtz20HSwPZagFk%3d&risl=&pid=ImgRaw&r=0",
+      "company": "ABC company",
+      "title": "HR",
+      "GroupId": "1"
+    },
+    {
+      "id": 2,
+      "name": "vimal kumar",
+      "email": "vimalk@gmail.com",
+      "phone": "9854578586",
+      "photourl": "https://www.mightyplace.com/Images/Common/profile.jpg",
+      "company": "DEF company",
+      "title": "SALES",
+      "GroupId": "3"
+    },
+    {
+      "id": 3,
+      "name": "Rojan",
+      "email": "rojan@gmail.com",
+      "phone": "7454578682",
+      "photourl": "https://th.bing.com/th/id/OIP.sI62YQTmpshAV_YediafhQHaHa?pid=ImgDet&rs=1",
+      "company": "XYZ company",
+      "title": "Junior Developer",
+      "GroupId": "2"
+    },
+    {
+      "id": 4,
+      "name": "Sandra paul",
+      "email": "sandra@gmail.com",
+      "phone": "6534578995",
+      "photourl": "https://th.bing.com/th/id/OIP.inXSw5jbycIIlXC1dIXdiwHaIL?pid=ImgDet&rs=1",
+      "company": "GHI company",
+      "title": "Senior Developer",
+      "GroupId": "1"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "company"
+    },
+    {
+      "id": "2",
+      "name": "family"
+    },
+    {
+      "id": "3",
+      "name": "friends"
+    }
+  ]
+}
